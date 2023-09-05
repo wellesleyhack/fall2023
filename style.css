@@ -14,162 +14,570 @@
 body {
   font-family: "Cabin", sans-serif;
   font-style: normal;
-  background-color:#dcebfc!important;
+  background-image: url("https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/background.png?v=1690337562584");
+  background-size: 100vw 100%;
+  overflow-x: hidden;
 }
 
-@media (max-width: 500px) {
-  body {
-    background-size: 200%, 300%, 300%;
+/* for other screen sizes (mobile) */
+
+@media (max-width: 700px) {
+  .nav-logo {
+    display: none;
+    visibility: hidden;
   }
+  .nav-links {
+    display: none;
+    visibility: hidden;
+  }
+
+  .nav-link-ham {
+    display: block !important;
+    border:none;
+    background:none;
+  }
+
+  .nav-link a {
+    color: white !important;
+  }
+
+  #clockdiv {
+    font-size: 12vw !important;
+  }
+
+  .smalltext {
+    font-size: 2vw !important;
+    margin-top: -1rem !important;
+  }
+
+  .whale-logo {
+    max-width: 90vw !important;
+    margin-top: -12rem !important;
+    margin-bottom: -4rem !important;
+  }
+
+  .faqcard {
+    max-width: 70vw;
+  }
+  
+  .question {
+    max-width:50vw!important;
+  }
+  
+  #team {
+    margin:1rem;
+  }
+
+  .teammembers {
+    height: 20rem !important;
+  }
+
+  .member,
+  .hoverinfo,
+  .memberimg {
+    width: 8rem !important;
+    height: 8rem !important;
+    background-size: 8rem !important;
+    border-radius: 8rem !important;
+    font-size: 0.75rem;
+  }
+
+  .hoverinfo {
+    margin-top: -8.5rem !important;
+  }
+  
+  .faq-whale {
+      margin-top: -10rem !important;
+    max-width:100%!important;
+    }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .theme-rectangle {
+    width:90vw!important;
+  }
+  
+  .theme-whale-logo {
+    margin-top:0!important;
+    margin-right:0!important;
+  }
+  
+  .rectangle {
+    max-width:80vw!important;
+  }
+  
+  .theme-rectangle .col-auto {
+    max-width:5rem;
+    justify-content:center;
+}
+  
 }
 
 /* header navbar ------------------------------------------------------------------------- */
-.mlh-badge, .mlh-img {
-  display:block;
-  max-width:5em;
-  position:fixed;
-  right:10%;
-  top:0;
-  width:10%;
-  z-index:10000;
+nav {
+  min-height: 4rem;
+  padding: 1rem;
 }
 
+.nav-logo img {
+  max-height: 3rem;
+  margin-left: 1rem;
+}
 
-/* main/home section ----------------------------------------------------------------------------- */
+.mlh-badge,
+.mlh-img {
+  display: block;
+  width: 5em;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+}
+
+.nav-link a {
+  color: #304a8b;
+}
+
+.nav-links {
+  text-align: center;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+
+.nav-link-ham {
+  display: none;
+  z-index: 100;
+  width:48px;
+  height:48px;
+}
+
+.nav-link-ham:hover {
+  cursor:pointer;
+}
+
+.mobile-nav-links {
+  background-color: #304a8b;
+  padding: 1rem;
+  margin-top: 5rem;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+  visibility: hidden;
+}
+
+/* header section ----------------------------------------------------------------------------- */
 #home {
+  height: 95vh;
+  max-width: 35rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.main-logo {
+  max-width: 10rem;
+}
+
+.headertext {
+  margin: 2em;
+  font-weight: 700;
+}
+
+#clockdiv {
+  color: #304a8b;
+  font-size: 5rem;
+}
+
+.smalltext {
+  color: #304a8b;
+  font-size: 1rem;
+  margin-top: -1.5rem;
+}
+
+.subheading {
+  color: #304a8b;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+#preregistration {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.reg-button {
+  background-color: #D5347D;
+  color: white;
+  border-radius: 5rem !important;
+  padding-left: 1.5em !important;
+  padding-right: 1.5em !important;
+  font-weight: 600 !important;
+}
+
+/* about section -------------------------------------------------------------------------------- */
+
+.whack2023 {
   min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 6rem;
+  color: #304a8b;
 }
 
-.whack2023 {
-  font-family:'Josefin Sans', sans-serif;
-  font-size:4em;
-  color:#da4a8b;
-}
-
-.subheading {
-  color: #315cc4;
-  font-weight:600;
-  text-transform:uppercase;
-  letter-spacing:.25em;
-  font-size:1.5em;
+.whale-logo {
+  display: block;
+  margin-top: -15rem;
+  margin-bottom: -7rem;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40rem;
+  /*   max-width: 591px;
+  max-height: 470px; */
 }
 
 #about {
-  max-width:40em;
-  text-align:center;
+  min-height: 80vh;
+  max-width: 50rem;
+  font-family: "Cabin", sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  color: #304a8b;
+}
+
+#about a {
+  font-weight: 700;
+  color: #304a8b;
+  text-decoration: underline;
+}
+
+
+/* themes -------------------------------------------------------------------------------- */
+#themes {
+/*   display: flex;
+  align-items: center;
+  justify-content: center; */
+  margin-top:10rem;
+  min-height: 50rem;
+}
+
+.theme-title {
+  font-family: "Josefin Sans", sans-serif;
+  color: #304a8b;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.theme-rectangle {
+  margin-bottom: -8%;
+  padding: 3em;
+  width: 45rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 25px;
   margin:auto;
-  padding:1em;
-  margin-bottom:3em;
 }
 
-#preregistration {
+.name-theme {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1.35rem;
+  color: #000000;
+  width:100%;
   text-align:center;
-  margin-bottom:5em;
 }
 
+.theme-rectangle .col-auto {
+  padding:1rem;
+  justify-content:center;
+}
+
+.theme-rectangle .row {
+  justify-content:center;
+  align-items:center;
+}
+
+.theme-table {
+  font-family: "Cabin", sans-serif;
+  justify-content:center;
+  align-items: center;
+  margin-top:1rem;
+}
+
+#themes p {
+  text-align:right;
+  margin-right:8rem;
+}
+
+.theme-whale-logo {
+  width: 400px;
+  height: 400px;
+  margin-top:-7rem;
+}
 
 /* faq -------------------------------------------------------------------------------- */
 #faq {
-  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  max-width: 60rem;
+  align-items: center;
   justify-content: center;
-  margin-bottom:3em;
 }
 
-#faq h1 {
-  font-family:"Josefin Sans", sans-serif;
-  color:#da4a8b;
-  text-align:center;
+#faq button {
+  text-align:left;
+  border:none;
 }
 
-.faq-card {
-  background-color: rgba(255, 255, 255, 0.4) !important;
-  margin-top: 1rem;
-  padding: 1rem auto 1rem auto;
+#faq .col-auto {
+  margin-left:1rem;
+  margin-right:1rem;
 }
 
-.faq-list {
-  list-style-type: none;
-  padding-left:0px;
-  max-width:40em;
-  margin:auto;
+.faqtitle {
+  font-family: "Josefin Sans", sans-serif;
+  color: #304a8b;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
-.question:before {
-  content: "";
-  display: inline-block;
-  height: 1.8em;
-  width: 2em;
-  margin-bottom: -5px;
-  background-size: 2em;
-  background-image: url("images/faq-leaf.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-.faq_exp:before {
-  height: 3em;
-  width: 2.3em;
-  background-size: 3em;
-  background-image: url("images/dropleaf.svg") !important;
-  background-position: bottom;
-  margin-bottom: -10px;
-}
-
-li span {
-  position: relative;
-  left: 0.7em;
+.faqcard {
+  width: 25rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: white;
+  margin-bottom: 1.5rem;
+  box-shadow: 0px 3px 2px gray;
 }
 
 .question {
-  color: #315cc4;
-  text-transform:uppercase;
+  font-family: "Cabin", sans-serif;
+  color: black;
   font-weight: 600;
-  letter-spacing: .25em;
-  text-indent: -40px;
-  margin-bottom:1em;
-  max-width:40em;
+  font-size: 1.2rem;
 }
 
 .answer {
-  font-weight: normal;
-  color:black;
-  text-transform:none;
-  letter-spacing: -0.02em;
-  margin: 0.5em 1em 1em 1em;
-  text-indent: 0px;
+  margin-top: 0.25rem;
+  color: #304a8b;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
   display: none;
+  padding: 0.5rem;
 }
 
-.answer a {
-  color: #b9437e;
+.drop {
+  position:absolute;
+  right:1rem;
+  margin-top:-1.7rem;
 }
 
-.question:hover,
-.answer:hover {
+.faqcard:hover {
   cursor: pointer;
 }
 
+.faqcard a,
+.email-blurb a {
+  font-weight: 500;
+  color: #304a8b;
+}
+
 .email-blurb {
-  padding:1em;
+  margin-top: 2rem;
+  font-weight: 500;
+  color: #304a8b;
+  max-width: 20rem;
+  text-align: center;
 }
 
-.email-link {
-  color: #da4a8b;
-  font-weight:bold;
+.faq-whale {
+  max-width: 30rem;
+  margin-top: -20em;
+  overflow:hidden;
 }
 
-/* footer ------------------------------------------------------------------------------ */
-footer {
-  padding:1em;
-  max-width:40em;
-  text-align:center;
+/* meet the team ------------------------------------------------------------------------ */
+#team {
+  margin-bottom: 10rem;
   margin:auto;
 }
 
-footer a {
-  color:#da4a8b;
-  font-weight:bold;
+#team button {
+  border:none;
+}
+
+.teamtitle {
+  background-color: white;
+  color: black;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.2rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
+
+.teamtitle:hover {
+  cursor: pointer;
+}
+
+.teammembers {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 24rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  align-content: flex-start;
+  scrollbar-width: auto;
+  scrollbar-color: transparent #ffffff;
+}
+
+.member,
+.hoverinfo,
+.memberimg {
+  width: 10rem;
+  height: 10rem;
+  background-size: 10rem;
+  border-radius: 10rem;
+  text-align: center;
+  white-space: pre-line;
+  margin: 0.5rem;
+  display: inline-block;
+}
+
+.memberimg {
+  object-fit:cover;
+}
+
+.hoverinfo {
+  background-color: black;
+  opacity: 0.75;
+  margin-top: -10.5rem;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  line-height: 1.25rem;
+}
+
+/* ===== Scrollbar CSS ===== */
+
+/* Chrome, Edge, and Safari */
+.teammembers::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  opacity: 0.5;
+}
+
+.teammembers::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.teammembers::-webkit-scrollbar-thumb {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+/* sponsors ------------------------------------------------------------------------------ */
+#sponsors {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15rem;
+  margin-top: 20rem;
+}
+
+.sponsors-title {
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+/*   margin-bottom:3rem; */
+}
+
+#sponsors .col,
+#sponsors .row {
+  align-items:center;
+  justify-content:center;
+}
+
+.rectangle {
+  display:flex;
+  width:20rem;
+  height: 8rem;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.25);
+  margin:.5rem;
+  text-align:center;
+  align-items:center;
+  color:white;
+  justify-content:center;
+  display:none;
+}
+
+.sponsor-blurb {
+  color:white;
+  margin-top:3rem;
+  text-align:center;
+  
+}
+
+.sponsor-blurb a {
+  color:white;
+  font-weight:700;
+}
+
+.sponsor-blurb a:hover {
+  color:white;
+}
+
+
+/* footer ------------------------------------------------------------------------------ */
+footer {
+  padding: 2rem;
+  background-color: #446CCA;
+  position: absolute;
+  width: 100vw;
+}
+
+.horizontal-line {
+  width: 100vw;
+  height: 1px;
+  border-top: 1px solid white;
+}
+
+.conductP {
+  font-family: "Cabin", sans-serif;
+  color: white;
+  padding-top: 2em;
+  float: right;
+  text-align: right;
+  font-size: 18px;
+}
+
+.conductP a {
+  color: white;
+  text-decoration: underline;
+}
+
+.list-inline {
+  padding-top: 4em;
+  position: relative;
+  float: left;
+}
+
+.conductP a:hover {
+  color:#fad7d7;
 }
