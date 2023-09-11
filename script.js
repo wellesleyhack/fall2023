@@ -221,7 +221,7 @@ const all = [
     name: "Diya Khanna",
     year: "2025",
     position: "Logistics",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/DiyaKhanna.jpg?v=1694457406074",
   },
   {
     team: "sponsor",
