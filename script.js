@@ -249,7 +249,7 @@ const all = [
     name: "Dora Li",
     year: "2026",
     position: "Sponsorships",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/DoraLi.png?v=1694457008823",
   },
   {
     team: "sponsor",
