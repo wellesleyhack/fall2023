@@ -232,31 +232,10 @@ const all = [
   },
   {
     team: "sponsor",
-    name: "Zora Levette",
-    year: "2024",
-    position: "Sponsorships",
-    photo: phimg,
-  },
-  {
-    team: "sponsor",
-    name: "Celine Yung",
-    year: "2026",
-    position: "Sponsorships",
-    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/CelineYung.jpeg?v=1693885930316",
-  },
-  {
-    team: "sponsor",
     name: "Dora Li",
     year: "2026",
     position: "Sponsorships",
     photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/DoraLi.png?v=1694457008823",
-  },
-  {
-    team: "sponsor",
-    name: "Emilie Zhang",
-    year: "",
-    position: "Sponsorships",
-    photo: phimg,
   },
   {
     team: "treasury",
