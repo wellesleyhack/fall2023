@@ -128,9 +128,9 @@ const all = [
   {
     team: "director",
     name: "Emily Zhang",
-    year: "",
+    year: "2024",
     position: "Co-Director",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/EmilyZhang.jpg?v=1697746265570",
   },
   {
     team: "director",
@@ -143,7 +143,7 @@ const all = [
     team: "director",
     name: "Elizabeth Huang",
     year: "2026",
-    position: "Vice President",
+    position: "Co-Director",
     photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/ElizabethHuang.jpg?v=1693885984134",
   },
   {
@@ -249,7 +249,7 @@ const all = [
     name: "Jaci Cotaquispe",
     year: "2025",
     position: "Treasury",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/JaciCotaquispe.jpg?v=1697746392614",
   },
 ];
 
