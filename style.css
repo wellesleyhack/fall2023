@@ -508,7 +508,7 @@ nav {
 /*   margin-bottom:3rem; */
 }
 
-#sponsors .col,
+#sponsors .col-auto,
 #sponsors .row {
   align-items:center;
   justify-content:center;
@@ -516,16 +516,37 @@ nav {
 
 .rectangle {
   display:flex;
-  width:20rem;
-  height: 8rem;
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.25);
   margin:.5rem;
+  
   text-align:center;
   align-items:center;
   color:white;
   justify-content:center;
-  display:none;
+}
+
+.bronze {
+  height:5rem;
+  padding:1rem;
+
+}
+
+.rectangle img {
+  max-height:100%;
+}
+
+.silver {
+  height:10rem;
+  padding:1.2rem;
+}
+
+.gold {
+  
+}
+
+.platinum {
+  
 }
 
 .sponsor-blurb {
