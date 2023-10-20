@@ -238,6 +238,13 @@ const all = [
     photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/DoraLi.png?v=1694457008823",
   },
   {
+    team: "sponsor",
+    name: "Leyou Gessessew",
+    year: "2027",
+    position: "Sponsorships",
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/LeyouGessessew.jpg?v=1697762293448",
+  },
+  {
     team: "treasury",
     name: "Caitlin-Rose Ibe",
     year: "2025",
