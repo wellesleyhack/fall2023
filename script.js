@@ -245,6 +245,27 @@ const all = [
     photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/LeyouGessessew.jpg?v=1697762293448",
   },
   {
+    team: "sponsor",
+    name: "Katelyn Zhou",
+    year: "2027",
+    position: "Sponsorships",
+    photo: "phimg",
+  },
+  {
+    team: "sponsor",
+    name: "Linh Dinh",
+    year: "2026",
+    position: "Sponsorships",
+    photo: "phimg",
+  },
+  {
+    team: "sponsor",
+    name: "Hannah Chiou",
+    year: "2025",
+    position: "Sponsorships",
+    photo: "phimg",
+  },
+  {
     team: "treasury",
     name: "Caitlin-Rose Ibe",
     year: "2025",
