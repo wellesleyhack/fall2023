@@ -249,7 +249,7 @@ const all = [
     name: "Katelyn Zhou",
     year: "2027",
     position: "Sponsorships",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/KatelynZhou.jpg?v=1698079972019",
   },
   {
     team: "sponsor",
@@ -257,6 +257,13 @@ const all = [
     year: "2026",
     position: "Sponsorships",
     photo: phimg,
+  },
+  {
+    team: "sponsor",
+    name: "Elizabeth Yan",
+    year: "2026",
+    position: "Sponsorships",
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/elizabethyan.jpg?v=1698080101478",
   },
   {
     team: "sponsor",
