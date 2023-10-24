@@ -324,6 +324,44 @@ nav {
   margin-top:-7rem;
 }
 
+/* schedule ----------------------------------------------------------------------------- */
+h3 {
+  font-size: 1.2rem !important;
+  font-family: "Cabin", sans-serif !important;
+  text-align: center;
+  font-weight: 700 !important;
+}
+
+.schedulebox {
+  font-family: "Inter", sans-serif;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.schedulebox span {
+  font-size: 0.8rem;
+}
+
+.schedulebox li {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
+.schedulebox .row {
+  margin: 1rem;
+}
+
+.schedhead {
+  font-weight: 700 !important;
+}
+
+#schedule {
+  margin-bottom:12rem;
+}
+
 /* faq -------------------------------------------------------------------------------- */
 #faq {
   margin-top: 5rem;
