@@ -256,7 +256,7 @@ const all = [
     name: "Linh Dinh",
     year: "2026",
     position: "Sponsorships",
-    photo: phimg,
+    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/LinhDinh.png?v=1698167714090",
   },
   {
     team: "sponsor",
