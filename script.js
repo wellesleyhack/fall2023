@@ -43,7 +43,7 @@ $(document).ready(function () {
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
   }
-  var deadline = new Date("November 5, 2023 12:00:00 GMT-5");
+  var deadline = new Date("November 5, 2023 12:30:00 GMT-5");
   initializeClock("clockdiv", deadline);
 });
 
