@@ -176,13 +176,6 @@ const all = [
   },
   {
     team: "dm",
-    name: "Annie Chen",
-    year: "2026",
-    position: "Design/Marketing",
-    photo: "https://cdn.glitch.global/539b6955-9ff6-4ea6-9668-df589374b34e/AnnieChen.png?v=1693886045584",
-  },
-  {
-    team: "dm",
     name: "Emma Lim",
     year: "2024",
     position: "Design/Marketing",
